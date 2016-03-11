@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+body {
+	background-color: #cfb48e;
+	color: #7f571e;
+	margin: 0px;
+}
+p.firstline {
+	margin-top:0px ;
+}
+p.lastline {
+	margin-bottom:0px ;
+}
+p.copyrighttext{
+	margin:0px auto;
+}
+a {
+	text-decoration: none ;
+}
+a:hover {
+	color: black ;
+}
+#titlename {
+	text-align: center ;
+	margin-left: 15% ;
+	margin-right: 15% ;
+}
+#titlename h1{
+	text-align: center;
+	background-color: white;
+	margin: 0px;
+	padding: 0px 0px 4px 0px;
+	min-width: 400px;
+}
+#nav{
+	background-color: #CCC ; /* 将导航块背景设为白色 */
+	width: 150px ;
+	margin-top: 0px ;
+	margin-left: 15% ;
+	float: left;
+	height: 311px ;
+}
+#nav h3{
+	margin-left:5px;
+	margin-top: 5px ;
+	margin-bottom: 0px;
+}
+#nav ul{
+	list-style: none ;
+}
+
+#content{
+	background-color: #EEE;
+	margin-top: 0px ;
+	margin-right: 15% ;
+	margin-left: calc(15% + 150px) ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	min-width: 244px;
+	height: 311px ;
+}
+
+#copyright{
+	background-color: #DDD;
+	margin-left:  15%;
+	margin-right:  15%;
+	padding-left: 0.5% ;
+	clear: both;
+	min-width: 400px ;
+}
+#test{
+	width: 100px;
+	height: 50px;
+	background-color: green ;
+	margin-left: 15% ;
+	margin-top: 50px ;
+	padding: 10px ;
+	border: 20px solid red;
+} 
+
+
+
